@@ -1,0 +1,5 @@
+botbuilder-integration-aiohttp>=4.13.0
+botbuilder-dialogs>=4.13.0
+botbuilder-ai>=4.13.0
+gunicorn>=20.0.4
+aiohttp
