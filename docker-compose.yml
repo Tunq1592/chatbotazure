@@ -6,6 +6,6 @@ services:
     restart: always
     build: ./chatbot_app
     ports:
-      - "3978:3978"
+      - "80:3978"
     command: gunicorn app:chatbot --bind 0.0.0.0:3978 --worker-class aiohttp.GunicornWebWorker
  
